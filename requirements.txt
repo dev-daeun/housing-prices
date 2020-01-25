@@ -1,5 +1,5 @@
-Flask
-numpy
-pandas
-scikit-learn
-pylint
+Flask==1.1.1
+numpy==1.18.1
+pandas==0.25.3
+scikit-learn==0.20.2
+pylint==2.4.4
