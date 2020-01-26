@@ -1,0 +1,3 @@
+deployment.apps/housing-prices created
+housing-prices-5f745b69c5-rfvkt   0/1     Pending   0          0s
+error: unable to forward port because pod is not running. Current status=Pending
