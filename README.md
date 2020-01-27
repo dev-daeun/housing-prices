@@ -58,7 +58,7 @@ If you want to run Flask application server in Kubernetes cluster, execute comma
 (Minikube should be installed and started on your local PC.)
 ```
 # Run the Docker Hub container with kubernetes
-$ kubectl create deployment housing-prices --image=kde6260/housing-prices:0.0.1
+$ kubectl create deployment housing-prices --image=kde6260/housing-prices:latest
 ```
 ```
 # List kubernetes pods
