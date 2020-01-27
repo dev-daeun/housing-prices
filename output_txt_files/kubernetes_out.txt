@@ -1,3 +1,14 @@
-deployment.apps/housing-prices created
-housing-prices-5f745b69c5-rfvkt   0/1     Pending   0          0s
-error: unable to forward port because pod is not running. Current status=Pending
+(housing-prices) ➜  housing-prices git:(master) kubectl get pods
+NAME                              READY   STATUS    RESTARTS   AGE
+housing-prices-5f745b69c5-9lzq4   1/1     Running   0          14s
+(housing-prices) ➜  housing-prices git:(master) kubectl port-forward housing-prices-5f745b69c5-9lzq4 8000:80
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
+(housing-prices) ➜  housing-prices git:(master) ./make_prediction.sh
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
