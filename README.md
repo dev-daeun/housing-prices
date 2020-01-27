@@ -2,6 +2,8 @@
 
 Flask application in this repo provides housing prices prediction in Boston.
 
+Model data & flask application is provided by [udacity/DevOps_Microservices](https://github.com/udacity/DevOps_Microservices)
+
 ## API specification
 ```
 * Request *
